@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .profile-card {
+            width: 300px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .profile-card h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 10px 0;
+        }
+        .profile-card p {
+            font-size: 1rem;
+            color: #555;
+            margin: 5px 0;
+        }
+        .profile-card .contact {
+            margin-top: 20px;
+        }
+        .profile-card .contact a {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #4a90e2;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .profile-card .contact a:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://i.pravatar.cc/150?img=12" alt="Profile Photo">
+        <h2>Jane Doe</h2>
+        <p>Email: janedoe@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <div class="contact">
+            <a href="mailto:janedoe@example.com">Email</a>
+            <a href="tel:1234567890">Call</a>
+        </div>
+    </div>
+</body>
+</html>
